@@ -21,6 +21,10 @@ h1 {
     border-radius: 10px;
 }
 
+.todo-wrapper::-webkit-scrollbar{
+  width: 0.5em;
+} 
+
 .todo-input {
     display: flex;
     align-items: center;
@@ -109,6 +113,7 @@ h1 {
     margin-bottom: 10px;
     align-items: center; 
     box-shadow: 0px 3px 5px rgb(43, 42, 42);
+    border-radius: 10px;
 }
 
 .todo-listItems h3{

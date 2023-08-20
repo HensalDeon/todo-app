@@ -44,7 +44,7 @@ function App() {
         let h = now.getHours();
         let m = now.getMinutes();
         let s = now.getSeconds();
-        let completedOn = dd + "-" + mm + "-" + yyyy + " at" + h + ":" + m + ":" + s;
+        let completedOn = dd + "-" + mm + "-" + yyyy + " at " + h + ":" + m + ":" + s;
 
         let filteredItem = {
             ...allTodos[index],
